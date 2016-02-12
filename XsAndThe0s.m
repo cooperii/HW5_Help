@@ -17,3 +17,6 @@ for i = 1:numel(years),
     years(i) = str2double(varname(2:5));
     %fills the vector wth the 2nd thru 5th values of the string
 end;
+
+% this should result in a vector that contains NUMBERS that correspond to
+% the years in the column headings.
